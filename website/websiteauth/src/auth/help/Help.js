@@ -1,11 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import '../../css/help.css';
 import backArrow from '../images/arrow_back.png';
 
 const Help = () => {
+    const navigate = useNavigate();
 	const handleBackArrow = () => {
-		window.history.back();
+		navigate('/login')
 	}
 	return (
 		<React.Fragment>
