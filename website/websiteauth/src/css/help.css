@@ -1,0 +1,51 @@
+.backButtonWrapper {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 15%;
+    height: 15%;
+}
+
+.backButton {
+    display: flex;
+    background-color: #e5e6e4;
+    width: 50%;
+    height: 100%;
+    transform: translateX(0%);
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition: all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.backButton:hover {
+    width: 95%;
+    background-color: #ffc5c5;
+}
+
+.helpcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    overflow: hidden;
+}
+
+.helpMain {
+    position: absolute;
+    top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    overflow: hidden;
+}
