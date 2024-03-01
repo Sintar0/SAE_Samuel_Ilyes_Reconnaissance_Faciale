@@ -49,3 +49,24 @@
     height: max-content;
     overflow: hidden;
 }
+
+.helpMain p {
+    line-height: 1.7;
+}
+
+.helpMain p span {
+    font-weight: bold;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
+    text-decoration: underline;
+}
+
+.helpMain p strong {
+    font-weight: bold;
+    background-color: darkslategray;
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
+}
