@@ -4,8 +4,8 @@ npm-debug.log
 yarn-error.log
 
 # React
-build/
 dist/
 .cache/
 __pycache__/
 dataset/mini_data/*
+website/backend/models/*
