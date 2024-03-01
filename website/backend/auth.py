@@ -19,7 +19,7 @@ from tensorflow import keras
 
 def authentification():
     # Chargement du modèle
-    model = keras.models.load_model(r'website\backend\models\model.keras')
+    model = keras.models.load_model('./models/model.keras')
     # Fonction pour l'authentification
     cascade_visage = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
     camera = cv2.VideoCapture(0)
